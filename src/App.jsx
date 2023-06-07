@@ -83,7 +83,7 @@ const App = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  ChatGPT Shortcut
+                  ChatGPT魔法提示词
                 </a>
               </Menu.Item>
             </Menu>
@@ -102,7 +102,7 @@ const App = () => {
             alignItems: "center",
           }}
         >
-          图像魔方
+          圆圆AI--图像提示词
         </Title>
         <Row gutter={[16, 16]}>
           <Col xs={24} lg={18}>
