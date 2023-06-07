@@ -63,45 +63,27 @@ const App = () => {
   return (
     <Layout>
       <Helmet>
-        <title>IMGPrompt</title>
+        <title>圆圆AI实验室：图像魔法</title>
         <meta
           name="description"
           content="用于 Stable Diffusion 和 Midjourney 的图像提示词生成"
         />
-        <meta name="keywords" content="prompt, ai prompt, 提示词" />
+        <meta name="keywords" content="圆圆AI，prompt, 图像魔法, 提示词" />
       </Helmet>
       <Layout.Header>
         <Row justify="space-between" align="middle" gutter={16}>
           <Col xs={20} sm={18} md={16}>
             <Menu mode="horizontal" theme="dark" selectedKeys={["1"]}>
               <Menu.Item key="1" icon={<BgColorsOutlined />}>
-                IMGPrompt
-              </Menu.Item>
-              <Menu.Item key="2" icon={<ThunderboltOutlined />}>
-                <a
-                  href="https://newzone.top/posts/2022-09-05-stable_diffusion_ai_painting.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Stable Diffusion 入门教程
-                </a>
+                图像魔法
               </Menu.Item>
               <Menu.Item key="3" icon={<ExperimentOutlined />}>
                 <a
-                  href="https://www.aishort.top"
+                  href="https://mf.yuanyuanai.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   ChatGPT Shortcut
-                </a>
-              </Menu.Item>
-              <Menu.Item key="4" >
-                <a
-                  href="https://tools.newzone.top/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  批量文本处理
                 </a>
               </Menu.Item>
             </Menu>
@@ -124,7 +106,7 @@ const App = () => {
               )}
               <Col>
                 <a
-                  href="https://github.com/rockbenben/img-prompt"
+                  href="https://github.com/NeoGoal/img-prompt"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -149,7 +131,7 @@ const App = () => {
             alignItems: "center",
           }}
         >
-          IMGPrompt
+          图像魔方
         </Title>
         <Row gutter={[16, 16]}>
           <Col xs={24} lg={18}>
