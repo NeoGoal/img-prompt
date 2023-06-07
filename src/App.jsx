@@ -88,35 +88,6 @@ const App = () => {
               </Menu.Item>
             </Menu>
           </Col>
-          <Col>
-            <Row gutter={16} wrap={false}>
-              {screens.md && (
-                <Col style={{ display: "flex", alignItems: "center" }}>
-                  <a
-                    href="https://discord.gg/PZTQfJ4GjX"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      src="https://img.shields.io/discord/1048780149899939881?color=%2385c8c8&label=Discord&logo=discord&style=for-the-badge"
-                      alt="chat on Discord"
-                    />
-                  </a>
-                </Col>
-              )}
-              <Col>
-                <a
-                  href="https://github.com/NeoGoal/img-prompt"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <GithubOutlined
-                    style={{ color: "white", fontSize: "24px" }}
-                  />
-                </a>
-              </Col>
-            </Row>
-          </Col>
         </Row>
       </Layout.Header>
       <Layout.Content
